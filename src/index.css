@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  background-color: #0b2434;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div#root{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+  background-color: rgb(216, 234, 63);
+  height: 100%;
+  border-radius: 5px;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.dice-container{
+  display: grid;
+  grid-template: auto auto/ repeat(5, 1fr);
+  gap: 10px;
+}
+
+.dice-container button{
+  height: 50px;
+  width: 50px;
+  box-shadow: 0 2px 2px 2px rgba(red, green, blue, 0.15);
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(233, 154, 154);
+  cursor: pointer;
+}
+
+button.roll-dice{
+    height: 50px;
+    width: 100px;
+    border-color: #5035ff;
+    color: black;
+}
