@@ -9,6 +9,9 @@ A simple dice-rolling game built with React.
 - Random number generation
 - React hooks (`useState`, `useEffect`)
 
+## 🔗 Live Demo
+[Click here to play it live!](https://react-dice-app.vercel.app)
+
 ## Run it locally
 
 ```bash
